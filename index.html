@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard UI</title>
+  
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Brand Name</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search here">
+            </div>
+            <div class="user-profile">
+                <img src="./khalil.jpg" alt="User Profile">
+            </div>
+        </header>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Messages</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Password</a></li>
+                    <li><a href="#">Log Out</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <section class="overview-cards">
+                <div class="card">
+                    <h3>1,504</h3>
+                    <p>Sales</p>
+                </div>
+                <div class="card">
+                    <h3>80</h3>
+                    <p>Orders</p>
+                </div>
+                <div class="card">
+                    <h3>284</h3>
+                    <p>Customers</p>
+                </div>
+                <div class="card">
+                    <h3>$7,842</h3>
+                    <p>Revenue</p>
+                </div>
+            </section>
+            <section class="recent-orders">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Data rows here -->
+                    </tbody>
+                </table>
+            </section>
+            <section class="recent-customers">
+                <h2>Recent Customers</h2>
+                <ul>
+                    <!-- List items here -->
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
